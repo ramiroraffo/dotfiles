@@ -1,5 +1,5 @@
 {
   "catppuccin": { "branch": "main", "commit": "426dbebe06b5c69fd846ceb17b42e12f890aedf1" },
-  "cyberdream.nvim": { "branch": "main", "commit": "3def90c9eded09e5aae818983f14b5fe52b2034a" },
+  "cyberdream.nvim": { "branch": "main", "commit": "39f69ebcd8de69c741bb7a65353aa37dd0680ad1" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" }
 }
