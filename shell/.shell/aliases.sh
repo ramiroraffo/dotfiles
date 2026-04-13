@@ -6,6 +6,11 @@ alias iv='nvim'
 
 #ls
 alias sl='ls'
+alias la='ls -a'
+alias ll='ls -al'
 
 #clear
 alias cl='clear'
+
+#tree
+alias tree='tree -I ".git"'
