@@ -11,6 +11,18 @@ vim.cmd("filetype plugin indent on")
 vim.opt.autoindent = true
 vim.opt.cindent = true
 
-require("config.lazy")
 vim.o.termguicolors = true
-vim.cmd.colorscheme("default")
+vim.g.airline_powerline_fonts = 1
+vim.g.airline_theme = "catppuccin_mocha"
+
+require("config.lazy")
+
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+vim.lsp.config("clangd", {
+  capabilities = capabilities,
+})
+
+vim.lsp.enable("clangd")
+
+vim.cmd.colorscheme("catppuccin-mocha")
