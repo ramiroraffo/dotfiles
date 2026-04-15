@@ -16,6 +16,7 @@ vim.g.airline_powerline_fonts = 1
 vim.g.airline_theme = "catppuccin_mocha"
 
 require("config.lazy")
+require("config.lualine")
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
