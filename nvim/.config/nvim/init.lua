@@ -17,6 +17,8 @@ vim.g.airline_theme = "catppuccin_mocha"
 
 require("config.lazy")
 require("config.lualine")
+require("config.treesitter")
+require("config.gitsigns")
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
 

@@ -1,7 +1,7 @@
-  -- Set up nvim-cmp.
-  local cmp = require'cmp'
+-- Set up nvim-cmp.
+local cmp = require'cmp'
 
-  cmp.setup({
+cmp.setup({
     snippet = {
       -- REQUIRED - you must specify a snippet engine
       expand = function(args)
@@ -23,32 +23,31 @@
       { name = 'nvim_lsp' },
       { name = 'luasnip' }, -- For luasnip users.
     }, {
-      { name = 'buffer' },
       { name = 'path' }
     })
-  })
+    })
 
-  -- To use git you need to install the plugin petertriho/cmp-git and uncomment lines below
-  -- Set configuration for specific filetype.
-  --[[ cmp.setup.filetype('gitcommit', {
+    -- To use git you need to install the plugin petertriho/cmp-git and uncomment lines below
+    -- Set configuration for specific filetype.
+    --[[ cmp.setup.filetype('gitcommit', {
     sources = cmp.config.sources({
       { name = 'git' },
     }, {
       { name = 'buffer' },
     })
- })
- require("cmp_git").setup() ]]--
+    })
+    require("cmp_git").setup() ]]--
 
-  -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
-  cmp.setup.cmdline({ '/', '?' }, {
+    -- Use buffer source for `/` and `?` (if you enabled `native_menu`, this won't work anymore).
+    cmp.setup.cmdline({ '/', '?' }, {
     mapping = cmp.mapping.preset.cmdline(),
     sources = {
       { name = 'buffer' }
     }
-  })
+    })
 
-  -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
-  cmp.setup.cmdline(':', {
+    -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+    cmp.setup.cmdline(':', {
     mapping = cmp.mapping.preset.cmdline(),
     sources = cmp.config.sources({
       { name = 'path' }
@@ -56,12 +55,12 @@
       { name = 'cmdline' }
     }),
     matching = { disallow_symbol_nonprefix_matching = false }
-  })
+    })
 
-  -- Set up lspconfig.
-  local lspconfig = require("lspconfig")
-  local capabilities = require('cmp_nvim_lsp').default_capabilities()
+    -- Set up lspconfig.
+    local lspconfig = require("lspconfig")
+    local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
-  lspconfig.pyright.setup({
+    lspconfig.pyright.setup({
     capabilities = capabilities,
-  })
+})
