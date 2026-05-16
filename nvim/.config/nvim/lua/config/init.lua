@@ -1,0 +1,8 @@
+require("config.keymaps")
+require("config.cmp")
+require("config.lsp")
+require("config.lualine")
+require("config.treesitter")
+require("config.gitsigns")
+require("config.autopairs")
+require("config.mini")

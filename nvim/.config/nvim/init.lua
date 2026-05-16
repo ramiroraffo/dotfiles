@@ -15,17 +15,6 @@ vim.o.termguicolors = true
 vim.g.airline_powerline_fonts = 1
 vim.g.airline_theme = "catppuccin_mocha"
 
-require("config.lazy")
-require("config.lualine")
-require("config.treesitter")
-require("config.gitsigns")
+require("config")
 
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-vim.lsp.config("clangd", {
-  capabilities = capabilities,
-})
-
-vim.lsp.enable("clangd")
-
-vim.cmd.colorscheme("catppuccin-mocha")
+vim.cmd.colorscheme("catppuccin")

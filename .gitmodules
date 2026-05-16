@@ -1,0 +1,66 @@
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-treesitter"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/nvim-cmp"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/nvim-cmp
+	url = https://github.com/hrsh7th/nvim-cmp.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/nvim-lspconfig"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-nvim-lsp"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-buffer"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-buffer
+	url = https://github.com/hrsh7th/cmp-buffer.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-path"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-path
+	url = https://github.com/hrsh7th/cmp-path.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-cmdline"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp-cmdline
+	url = https://github.com/hrsh7th/cmp-cmdline.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/LuaSnip"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/LuaSnip
+	url = https://github.com/L3MON4D3/LuaSnip.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp_luasnip"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-cmp/cmp_luasnip
+	url = https://github.com/saadparwaiz1/cmp_luasnip
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim-colorizer.lua"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim-colorizer.lua
+	url = https://github.com/norcalli/nvim-colorizer.lua.git
+[submodule "nvim/.config/nvim/pack/plugins/start/colorscheme/nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/colorscheme/nvim
+	url = https://github.com/catppuccin/nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/gitsigns.nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/gitsigns.nvim
+	url = https://github.com/lewis6991/gitsigns.nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/lualine.nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nerdtree"]
+	path = nvim/.config/nvim/pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+[submodule "nvim/.config/nvim/pack/plugins/start/lualine/nvim-web-devicons"]
+	path = nvim/.config/nvim/pack/plugins/start/lualine/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons.git
+[submodule "nvim/.config/nvim/pack/plugins/start/telescope/telescope.nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/telescope/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/telescope/plenary.nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/telescope/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/telescope/telescope-fzf-native.nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/telescope/telescope-fzf-native.nvim
+	url = https://github.com/nvim-telescope/telescope-fzf-native.nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/vim-tmux-navigator"]
+	path = nvim/.config/nvim/pack/plugins/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator.git
+[submodule "nvim/.config/nvim/pack/plugins/start/utils/nvim-autopairs"]
+	path = nvim/.config/nvim/pack/plugins/start/utils/nvim-autopairs
+	url = https://github.com/windwp/nvim-autopairs.git
+[submodule "nvim/.config/nvim/pack/plugins/start/utils/mini.nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/utils/mini.nvim
+	url = https://github.com/nvim-mini/mini.nvim.git
+[submodule "nvim/.config/nvim/pack/plugins/start/nvim"]
+	path = nvim/.config/nvim/pack/plugins/start/nvim
+	url = https://github.com/catppuccin/nvim.git

@@ -1,3 +1,6 @@
+# Increase scan_timeout if modules aren't appearing in slow filesystems
+scan_timeout = 50
+
 "$schema" = 'https://starship.rs/config-schema.json'
 
 palette = 'catppuccin_macchiato'

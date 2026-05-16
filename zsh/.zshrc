@@ -1,3 +1,5 @@
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+
 # Aliases
 source ~/.shell/aliases.sh
 
@@ -13,5 +15,5 @@ source ~/.zsh/zinit.zsh
 # Zinit plugins
 source ~/.zsh/plugins.zsh
 
-eval "$(zoxide init bash)"
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
